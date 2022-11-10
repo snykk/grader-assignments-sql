@@ -1,0 +1,7 @@
+-- TODO: answer here
+ALTER TABLE users
+ADD COLUMN phone VARCHAR(50),
+ADD COLUMN address VARCHAR(255),
+ADD COLUMN department VARCHAR(255),
+ADD COLUMN division VARCHAR(255),
+ADD COLUMN position VARCHAR(255)
