@@ -1,0 +1,43 @@
+{{define "home"}}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/static/assets/icons/favicon.ico">
+    <link rel="stylesheet" href="/static/css/home.css">
+    <title>Todo App | Home</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="/page/login">Login</a></li>
+                    <li><a href="/page/register">Register</a></li>
+                </ul>
+            </nav>
+        </div>
+        <main class="content">
+              <section class="hero">
+                    <img src="https://s3.amazonaws.com/ionic-marketplace/todo-app-theme/icon.png" alt="">
+                    <div class="hero-content">
+                        <h1>Todo App</h1><br></h2>Assignment CAMP with GORM</h2><br><br>   
+                        <p> Assignment untuk upgrade Aplikasi Todo App yang terintegrasi dengan database PostgreSQL menggunakan ORM</p>
+                        <a href="/page/login" class="action-btn">Login</a>
+                    </div>
+             </section>
+        </div>
+        <div class="footer">
+            <footer>
+            <ul>
+                <li><a href="https://www.instagram.com/ruangguru/"><img src="/static/assets/icons/ig.png" alt="Instagram RG"><p>Instagram</p></a></li>
+                <li><a href="https://www.facebook.com/ruanggurucom"><img src="/static/assets/icons/fb.png" alt="Facebook RG"><p>Facebook</p></a></li>
+                <li><a href="https://www.linkedin.com/company/ruangguru-com/"><img src="/static/assets/icons/linked.png" alt="Linkedin RG"><p>Linkedln</p></a></li>
+            </ul>
+            </footer>
+        </div>
+    </div>    
+</body>
+</html>
+{{end}}

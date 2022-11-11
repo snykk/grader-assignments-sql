@@ -1,0 +1,28 @@
+{{define "todo"}}
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/static/assets/icons/favicon.ico">
+<title>Todo App | Task List</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-notify@0.5.5/dist/simple-notify.min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/simple-notify@0.5.5/dist/simple-notify.min.js"></script>
+<link rel="stylesheet" href="/static/css/todo.css" />
+</head>
+<body>
+
+<div id="myDIV" class="header">
+  <h2 style="margin:5px">My To Do List</h2>
+  <input type="text" id="myInput" placeholder="Title...">
+  <span onclick="newElement()" class="addBtn">Add</span>
+</div>
+
+<ul id="myUL"></ul>
+
+<button type="button" style=" width: 100%; height: 40px; color: red;" onclick="logoutAction()">Logout</button>
+
+<script src="/static/js/todo.js"></script>
+
+</body>
+</html>
+{{end}}
