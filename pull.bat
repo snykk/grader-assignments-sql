@@ -43,3 +43,19 @@ mkdir "8. Assignment 4"
 cd "8. Assignment 4"
 grader-cli assignment pull assignment-db-4-join
 cd ../
+
+mkdir "9. Exercise GORM"
+cd "9. Exercise GORM"
+grader-cli assignment pull crud-orm-cp
+grader-cli assignment pull join-orm-cp
+cd ../
+
+mkdir "10. Assignment 5"
+cd "10. Assignment 5"
+grader-cli assignment pull todo-app-with-orm
+cd ../
+
+mkdir "11. Final Course"
+cd "11. Final Course"
+grader-cli assignment pull cashier-app-db-final-project
+cd ../
