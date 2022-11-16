@@ -63,6 +63,7 @@ func NewAPI(usersRepo repo.UserRepository, sessionsRepo repo.SessionsRepository,
 	mux.Handle("/cart/add", api.Post(api.Auth(http.HandlerFunc(api.AddCart))))
 	mux.Handle("/cart/delete", api.Delete(api.Auth(http.HandlerFunc(api.DeleteCart))))
 	mux.Handle("/cart/update", api.Put(api.Auth(http.HandlerFunc(api.UpdateCart))))
+	mux.Handle("/utils/show_image", api.Get(http.HandlerFunc(api.showImage)))
 
 	return api
 }

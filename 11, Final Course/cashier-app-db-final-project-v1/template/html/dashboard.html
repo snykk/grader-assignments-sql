@@ -2,17 +2,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Cashier App | Dashboard</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.2.0/tailwind.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/static/css/dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.2.0/tailwind.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/static/css/dashboard.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-notify@0.5.5/dist/simple-notify.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-notify@0.5.5/dist/simple-notify.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/simple-notify@0.5.5/dist/simple-notify.min.js"></script>
   </head>
   <body>
@@ -21,31 +21,23 @@
         <div class="store text-blue-800 font-medium px-1 py-2 mb-3">
           <ul class="flex">
             <li class="inline-block">
-              <img class="h-8 rounded-full shadow" src="https://i.pinimg.com/736x/02/8f/92/028f927e250647bcc81a6f7d4e4a43e6.jpg" alt="">
+              <img class="h-8 rounded-full shadow" src="https://i.pinimg.com/736x/02/8f/92/028f927e250647bcc81a6f7d4e4a43e6.jpg" alt="" />
             </li>
-            <li class="inline-block">
-              &nbsp;&nbsp;&nbsp;Easy Store
-            </li>
+            <li class="inline-block">&nbsp;&nbsp;&nbsp;Easy Store</li>
           </ul>
         </div>
         <nav class="pt-3">
           <p class="title uppercase text-xs text-gray-600 tracking-wider">main</p>
           <ul class="ml-2 mt-2">
             <li class="flex-grow px-2 py-1">
-              <a class="text-sm tracking-wide text-blue-900 hover:text-blue-700 active" href="#">
-                <i class="fa fa-home"></i> Home
-              </a>
+              <a class="text-sm tracking-wide text-blue-900 hover:text-blue-700 active" href="#"> <i class="fa fa-home"></i> Home </a>
             </li>
             <li class="flex-grow px-2 py-1">
-              <a class="text-sm font-light text-blue-900 hover:text-blue-700" href="#">
-                <i class="fa fa-desktop"></i> Dashboard
-              </a>
+              <a class="text-sm font-light text-blue-900 hover:text-blue-700" href="#"> <i class="fa fa-desktop"></i> Dashboard </a>
             </li>
             <li class="flex-grow px-2 py-1">
-                <a class="text-sm font-light text-blue-900 hover:text-blue-700" href="#">
-                  <i class="fa fa-cog"></i> Settings
-                </a>
-              </li>
+              <a class="text-sm font-light text-blue-900 hover:text-blue-700" href="#"> <i class="fa fa-cog"></i> Settings </a>
+            </li>
           </ul>
         </nav>
       </div>
@@ -53,20 +45,18 @@
         <nav class="top-nav sticky inset-0 box-border inline-flex flex-grow w-full h-auto py-1 overflow-hidden">
           <div class="top-nav-left flex flex-grow items-start">
             <div class="inline-flex self-center">
-              <input class="search content-center shadow rounded-l" type="text" placeholder='Search Product'>
+              <input class="search content-center shadow rounded-l" type="text" placeholder="Search Product" />
               <button class="btn"><i class="fa fa-search"></i></button>
             </div>
           </div>
           <div class="top-nav-right">
             <ul class="flex justify-end items-center">
               <li class="inline-block">
-                <p class="text-gray-700" id="username">
-                  <i class="fa fa-sign-in"></i> Username Undefined 
-                </p>
+                <p class="text-gray-700" id="username"><i class="fa fa-sign-in"></i> Username Undefined</p>
               </li>
               <li class="inline-block">
                 <button data-toggle="modal" data-target="#bootstrapModal" onclick="modalChangeProfile()">
-                  <img class="h-8 rounded-full shadow" src="/user/img/profile" alt="">
+                  <img class="h-8 rounded-full shadow" src="/user/img/profile" alt="" />
                 </button>
               </li>
             </ul>
@@ -118,6 +108,5 @@
 
     <script src="/static/js/dashboard.js"></script>
   </body>
-  
-  </html>
-  {{end}}
+</html>
+{{end}}
